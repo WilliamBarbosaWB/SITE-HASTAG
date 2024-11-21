@@ -1,0 +1,189 @@
+/*GLOBAIS*/
+
+* {
+  font-family: "Montserrat", serif;
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+/*CABEÇALHO*/
+
+.item-lista-cabecalho {
+  color: #112e61;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*HERO*/
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.paragrafo-hero {
+  font-size: 19px;
+}
+
+.link-hero {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*CONTEUDOS GRATUITOS*/
+
+.h2-aulas {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.realce {
+  color: #7344bd;
+  font-weight: 600;
+}
+
+.h3-aulas {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.box-sociais-links {
+  font-size: 19px;
+  text-decoration: none;
+}
+
+/*seção diferenciais*/
+
+.h2-diferenciais {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.h2-diferenciais strong {
+  font-weight: 600;
+}
+
+.paragrafo-diferenciais {
+  font-size: 19px;
+}
+
+.h3-diferenciais {
+  font-size: 24px;
+  font-weight: 600;
+  color: #005e88;
+}
+
+.h3-diferenciais-empresas {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.h3-diferenciais-empresas a {
+  color: #005e88;
+  font-weight: 700;
+}
+
+/*seção o que falam*/
+.oquefalam-h2 {
+  font-weight: 400;
+}
+
+.oquefalam-h2 strong {
+  font-weight: 600;
+}
+
+.link-botao-depo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/*seção na mídia*/
+
+/*seção na blog*/
+
+.blog-postado {
+  font-size: 15px;
+}
+
+.blog-postado a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #f7a70c;
+}
+
+.titulo-post {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.descricao-blog {
+  font-size: 17px;
+}
+
+/*seção ajuda*/
+
+.comoajudar-lista,
+.paragrafo-ajuda {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.comoajudar-lista a,
+.paragrafo-ajuda a {
+  color: #008ff7;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/*seção minicurso*/
+
+.realce-minicurso {
+  font-weight: 600;
+}
+
+/*seção rodapé*/
+
+.titulo-rodape {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.subtitulo-rodape,
+.subtitulo-rodape {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subtitulo-rodape {
+  font-size: 18px;
+}
+
+.link-rodape {
+  color: #1a77a4;
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 16px;
+}
