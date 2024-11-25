@@ -3,6 +3,19 @@
 * {
   font-family: "Montserrat", serif;
   color: #404040;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #404040;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 a {
@@ -14,7 +27,7 @@ li {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 strong {
@@ -22,39 +35,93 @@ strong {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 400;
+}
+
+/*a:link,a:visited{
+}*/
+
+.secao {
+  padding: 7.63rem 2rem;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 /*CABEÇALHO*/
 
 .item-lista-cabecalho {
   color: #112e61;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
+}
+
+a:hover,
+a:visited {
+  color: #f60;
+}
+
+.item-lista-cabecalho .contem-filhos::after {
+  content: "\25BC";
+}
+
+.cabecalho {
+  padding: 1.6rem 3.12rem;
+  box-shadow: 0 0.21rem 0.6rem 0 rgba(204, 204, 204, 0.212);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+nav {
+  display: none;
+}
+
+.botao {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 3rem;
+  background-image: linear-gradient(180deg, #ff645e, #642320);
+  padding: 0.65rem 2.5rem;
+  color: white;
+  border-bottom: solid 0.4rem orange;
+  border-right: solid 0.4rem orange;
 }
 
 /*HERO*/
 
+.secao-hero {
+  background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
-.paragrafo-hero {
-  font-size: 19px;
+.botao-hero {
+  background-color: #f60;
 }
 
-.link-hero {
-  font-size: 24px;
-  font-weight: 700;
+.paragrafo-hero {
+  font-size: 1.9rem;
 }
 
 /*CONTEUDOS GRATUITOS*/
 
 .h2-aulas {
   font-weight: 400;
-  font-size: 35px;
+  font-size: 3.5rem;
 }
 
 .realce {
@@ -63,19 +130,19 @@ h1 {
 }
 
 .h3-aulas {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 700;
 }
 
 .box-sociais-links {
-  font-size: 19px;
+  font-size: 1.9rem;
   text-decoration: none;
 }
 
 /*seção diferenciais*/
 
 .h2-diferenciais {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 
@@ -84,17 +151,17 @@ h1 {
 }
 
 .paragrafo-diferenciais {
-  font-size: 19px;
+  font-size: 1.9rem;
 }
 
 .h3-diferenciais {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
   color: #005e88;
 }
 
 .h3-diferenciais-empresas {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 
@@ -113,7 +180,7 @@ h1 {
 }
 
 .link-botao-depo {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
 }
 
@@ -122,7 +189,7 @@ h1 {
 /*seção na blog*/
 
 .blog-postado {
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .blog-postado a {
@@ -132,20 +199,20 @@ h1 {
 }
 
 .titulo-post {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
   text-decoration: none;
 }
 
 .descricao-blog {
-  font-size: 17px;
+  font-size: 1.7rem;
 }
 
 /*seção ajuda*/
 
 .comoajudar-lista,
 .paragrafo-ajuda {
-  font-size: 19px;
+  font-size: 1.9rem;
   font-weight: 400;
 }
 
@@ -165,18 +232,18 @@ h1 {
 /*seção rodapé*/
 
 .titulo-rodape {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 600;
 }
 
 .subtitulo-rodape,
 .subtitulo-rodape {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
 }
 
 .subtitulo-rodape {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .link-rodape {
@@ -185,5 +252,5 @@ h1 {
 }
 
 .copy {
-  font-size: 16px;
+  font-size: 1.6rem;
 }
